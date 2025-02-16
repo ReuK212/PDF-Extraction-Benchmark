@@ -1,0 +1,17 @@
+.venv
+
+# Python
+__pycache__
+
+# Compiled sources #
+sources_pdf
+images_pdf
+extracted_outputs
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea
+# VS Code
+.vscode

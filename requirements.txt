@@ -1,0 +1,29 @@
+icecream
+pandas
+matplotlib
+seaborn
+## pdf (check OCR + Table/Image extraction to split regarding features)
+pymupdf4llm
+poppler
+pi_heif
+unstructured_inference
+pdf2image
+unstructured 
+
+### For later tests
+# PyMuPDF
+# PDFplumber
+# PyPDF
+# PyPDF2
+# pdfminer.six
+# hotpdf
+# marker
+# tika
+# extractous
+# tesseract
+
+# textract
+# deepdoc
+# deepdocdetection
+# pdf2image
+
