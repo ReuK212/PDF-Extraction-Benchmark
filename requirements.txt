@@ -3,6 +3,8 @@ pandas
 matplotlib
 seaborn
 ipywidgets
+ollama
+pydantic
 ## pdf (check OCR + Table/Image extraction to split regarding features)
 pymupdf4llm
 ## Unstructured dependencies
