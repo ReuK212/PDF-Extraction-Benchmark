@@ -10,7 +10,6 @@ def get_pdf_info(pdf_path: str) -> dict:
     :return: Dictionary with the information of the PDF file.
     """
     pdf_info = {}
-
     reader = PdfReader(pdf_path)
     meta = reader.metadata
 
@@ -20,16 +19,6 @@ def get_pdf_info(pdf_path: str) -> dict:
     pdf_info["producer"] = meta.producer
     pdf_info["creator"] = meta.creator
     pdf_info["pages"] = len(reader.pages)
-
-    # with open(pdf_path, "rb") as file:
-    #     pdf = PdfReader(file)
-    #     pdf_info["title"] = pdf.getDocumentInfo().title
-    #     pdf_info["author"] = pdf.getDocumentInfo().author
-    #     pdf_info["subject"] = pdf.getDocumentInfo().subject
-    #     pdf_info["producer"] = pdf.getDocumentInfo().producer
-    #     pdf_info["created"] = pdf.getDocumentInfo().created
-    #     pdf_info["modified"] = pdf.getDocumentInfo().modified
-    #     pdf_info["pages"] = len(pdf.pages)
 
     return pdf_info
 
@@ -48,8 +37,3 @@ def extract_and_measure_timing(func, *args, **kwargs):
     end_time = datetime.datetime.now()
     timing = end_time - start_time
     return content, timing.total_seconds()
-
-
-def test_function():
-    print("lol-extract_and_measure_timing")
-    return "lol return"

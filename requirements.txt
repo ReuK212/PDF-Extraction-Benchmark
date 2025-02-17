@@ -2,12 +2,16 @@ icecream
 pandas
 matplotlib
 seaborn
+ipywidgets
 ## pdf (check OCR + Table/Image extraction to split regarding features)
 pymupdf4llm
-poppler
+## Unstructured dependencies
 pi_heif
 unstructured_inference
 pdf2image
+tesseract
+pytesseract
+unstructured_pytesseract
 unstructured 
 
 ### For later tests
@@ -20,7 +24,6 @@ unstructured
 # marker
 # tika
 # extractous
-# tesseract
 
 # textract
 # deepdoc
